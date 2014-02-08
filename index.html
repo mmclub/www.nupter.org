@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+
+    <meta charset="utf-8">
+    <title>南京邮电大学移动互联网俱乐部</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Bootstrap styles -->
+    <link rel="stylesheet" href="css/vendor/bootstrap/bootstrap.css">
+
+    <!-- Glyphicons -->
+    <link rel="stylesheet" href="css/vendor/glyphicons/glyphicons.css">
+
+    <!-- Google Webfonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+
+    <!-- LayerSlider styles -->
+    <link rel="stylesheet" href="css/vendor/layerslider/layerslider.css" type="text/css">
+
+    <!-- Grove Styles (switch for different color schemes, e.g. "styles-cleanblue.css") -->
+    <link rel="stylesheet" href="css/styles-blue.css" id="grove-styles">
+
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" href="css/ie8.css">        
+        <script src="js/vendor/google/html5-3.6-respond-1.1.0.min.js"></script>
+    <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery/jquery-1.9.1.min.js"><\/script>')</script>
+    <!-- jQuery with jQuery Easing, and jQuery Transit JS -->
+    <script src="js/vendor/layerslider/jquery-easing-1.3.js" type="text/javascript"></script>
+    <script src="js/vendor/layerslider/jquery-transit-modified.js" type="text/javascript"></script>
+     
+    <!-- LayerSlider from Kreatura Media with Transitions -->
+    <script src="js/vendor/layerslider/layerslider.transitions.js" type="text/javascript"></script>
+    <script src="js/vendor/layerslider/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+
+    <!-- Grove Layerslider initiation script -->
+    <script src="js/grove-slider.js" type="text/javascript"></script>
+    
+</head> 
+<body>
+    <header>
+        <nav class="navbar navbar-default grove-navbar" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="#" class="grove-toggle" data-toggle="collapse" data-target=".grove-nav">   <i class="glyphicons show_lines"><i></i></i>  </a>
+                    <a href="index.html" class="navbar-brand"><img src="img/logo.png" alt="Grove"></a>
+                </div>
+
+                <div class="collapse navbar-collapse grove-nav">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="index.html">Home</a>
+                        </li>
+                         <li class="active">
+                            <a href="http://mmclub.github.io">技术博客</a>
+                        </li>                            
+                      <!--   <li class="dropdown">
+                            <a href="#" data-toggle="dropdown">Pages <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="features.html">Features Page</a></li>
+                                <li><a href="pricing.html">Pricing Tables</a></li>
+                                <li><a href="comparison.html">Product Comparison</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="blog-inner.html">Blog Detail</a></li>
+                                <li><a href="portfolio.html">Portfolio</a></li>
+                                <li><a href="#">Portfolio Detail</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="login.html">Login/Signup</a></li>
+                                <li><a href="404.html">404</a></li>
+                                <li><a href="contact.html">Contact</a></li>      
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown">Features <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="glyphicons.html">Glyphicons</a></li>
+                                <li><a href="buttons.html">Buttons</a></li>
+                            </ul>
+                         </li> -->
+                    </ul>        
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </nav>
+    </header>
+
+    <!--LayerSlider begin-->
+
+    <!-- Note: Layerslider is configured in js/grove-slider.js -->
+    <div class="hidden-xs">
+        <div id="layerslider" style="width: 100%; height: 405px; margin: 0px auto; ">
+            <div class="ls-layer" style="transition2d:5;">
+                <img class="ls-bg" src="img/slides/bg-five.jpg" alt="Slider Background">
+
+                <img  class="ls-s-1" src="img/photo/with-ruby.jpg" alt="iMac" 
+                      style="top:15px; left:650px; durationin : 1500; durationout : 500;">
+
+                <div class="ls-s-1 large-caption" 
+                     style="top:120px; left:20px; delayin : 750; slidedirection : fade; slideoutdirection : fade;">
+                    <div><p>我们的团队</p></div>
+                    <div><p>一群热爱生活，创新，尝试的大学生</p></div>
+                    <div>
+                        <p>以及一条叫Ruby的小狗</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ls-layer" style="transition2d:5;">
+                <img class="ls-bg" src="img/slides/bg-one.jpg" alt="Slider Background">
+
+                <img  class="ls-s-1" src="img/photo/programming.jpg" alt="iMac" 
+                      style="top:50px; left:50px; durationin : 1500; durationout : 500; delayin : 0;">
+              <!--   <img  class="ls-s-1" src="img/slides/fam_macbook.png" alt="MacBook" 
+                      style="top:190px; left:250px; durationin : 1250; durationout : 1250; delayin : 100;">
+                <img  class="ls-s-1" src="img/slides/fam_ipad.png" alt="iPad" 
+                      style="top:210px; left:0px; durationin : 1250; durationout : 1250; delayin : 200;">
+                <img  class="ls-s-1" src="img/slides/fam_iphone.png" alt="iPhone" 
+                      style="top:265px; left:160px; durationin : 1250; durationout : 1250; delayin : 300;">
+ -->
+                <div class="ls-s-1 large-caption" 
+                     style="top:130px; left:700px; delayin : 700; slidedirection : fade; slideoutdirection : fade;">
+                    <div><p>一起创造有趣的App和网站</p></div>
+                    <div><p>使用Ruby, Java, Objective-C 等语言书写漂亮的代码</p></div>
+                    <div><p>和我们可爱的小狗一起写程序</p></div>
+                </div>
+
+            </div>   
+
+             <div class="ls-layer" style="transition2d:5;">
+                <img class="ls-bg" src="img/slides/bg-three.jpg" alt="Slider Background">
+
+                <img  class="ls-s-1" src="img/photo/class.jpg" alt="MB Air" 
+                      style="top:25px; left:50px; durationin : 1500; durationout : 500;">
+
+                <div class="ls-s-1 large-caption" 
+                     style="top:150px; left:750px; delayin : 750; slidedirection : fade; slideoutdirection : fade;">
+                    <div><p>技术与设计交流、培训活动</p></div>
+                    <div><p>精心设计的精彩新生课程和学习分享活动</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--LayerSlider end-->
+
+    <!-- Layerslider substitute on x-small devices -->
+    <div class="widewrapper pagetitle visible-xs">
+        <div class="container">
+            <h1>南京邮电大学移动互联网俱乐部</h1>        
+        </div>
+    </div> 
+
+    <div class="widewrapper">
+        <div class="container">
+            <div class="row features">
+                <div class="col-md-4 feature">
+                    <h3><a class="glyphicons tint"><i></i></a>开发Android/iOS App</h3>
+                    <p>让自己的写的应用在自己和朋友的手机上跑起来，为自己的生活提供乐趣和方便。我们最讨厌过时的而且有错误的教科书上的所谓编程实验，我们喜欢尝试最新的SDK特性，开发炫酷的App应用，在App市场上淘金。</p>
+                </div>
+                <div class="col-md-4 feature">
+                    <h3><i class="glyphicons fire"><i></i></i>产品策划和交互设计</h3>
+                    <p>我们相信一款好的产品不仅需要漂亮的代码，更需要精心策划的产品功能，交互体验与漂亮精致的设计稿。我们不仅开发功能强大的App，也希望我们的应用能够美观漂亮，触动人心。</p>
+                </div>
+                <div class="col-md-4 feature">
+                    <h3><i class="glyphicons cloud"><i></i></i>欢乐的社团活动</h3>
+                    <p>我们不喜欢各种主席、部长的称号，也不喜欢繁杂无意义的例会，更讨厌刷存在感的活动。我们喜欢构建一个有爱的小团队，轻松的氛围，让大家共同成长。我们会定期举行黑客马拉松，技术交流，头脑风暴，户外活动。</p>
+                </div>        
+            </div>
+        </div>
+    </div>
+
+
+    <div class="widewrapper weak-highlight">
+        <div class="container content">
+            <div class="showroom-controls">
+                <div class="links">俱乐部成员和活动掠影 <i class="verticalSeparator"></i> <!-- <a href="portfolio.html">All Work</a> --></div>
+            </div>
+            <div class="row">
+               
+                 <div class="showroom-item col-sm-3">
+                    <div class="image">
+                        <img src="img/photo/zj-ruby.jpg" class="img-responsive" alt="Portfolio Image">
+                        <a class="overlay" href="#">
+                             <div class="name">多漂亮的姑娘~</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="showroom-item col-sm-3">
+                    <div class="image">
+                        <img src="img/photo/hxq.jpg" class="img-responsive" alt="Portfolio Image">
+                        <a class="overlay" href="#">
+                             <div class="name">胡雪茜</div>
+                        </a>
+                    </div>
+                </div>
+
+                 <div class="showroom-item col-sm-3">
+                    <div class="image">
+                        <img src="img/photo/zzn.jpg" class="img-responsive" alt="Portfolio Image">
+                        <a class="overlay" href="#">
+                             <div class="name">张中南</div>
+                        </a>
+                    </div>
+                </div>
+
+                 <div class="showroom-item col-sm-3">
+                    <div class="image">
+                        <img src="img/photo/panlei.jpg" class="img-responsive" alt="Portfolio Image">
+                        <a class="overlay" href="#">
+                             <div class="name">潘磊</div>
+                        </a>
+                    </div>
+                </div>
+
+                 <div class="showroom-item col-sm-3">
+                    <div class="image">
+                        <img src="img/photo/with-12.jpg" class="img-responsive" alt="Portfolio Image">
+                        <a class="overlay" href="#">
+                             <div class="name">合影</div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+                 <div class="showroom-item col-sm-3">
+                    <div class="image">
+                        <img src="img/photo/sds.jpg" class="img-responsive" alt="Portfolio Image">
+                        <a class="overlay" href="#">
+                             <div class="name">苏东生</div>
+                        </a>
+                    </div>
+                </div>
+
+                 <div class="showroom-item col-sm-3">
+                    <div class="image">
+                        <img src="img/photo/all2.jpg" class="img-responsive" alt="Portfolio Image">
+                        <a class="overlay" href="#">
+                             <div class="name">合影2</div>
+                        </a>
+                    </div>
+                </div>
+
+                 <div class="showroom-item col-sm-3">
+                    <div class="image">
+                        <img src="img/photo/man.jpg" class="img-responsive" alt="Portfolio Image">
+                        <a class="overlay" href="#">
+                             <div class="name">合影3</div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+            <div class="clearfix"></div>
+
+        
+        </div>
+    </div>
+
+<!--     
+    <div class="widewrapper weak-highlight">
+        <div class="container content">
+            <div class="showroom-controls">
+                <div class="links">Recent Work <i class="verticalSeparator"></i> <a href="portfolio.html">All Work</a></div>
+            </div>
+            <div class="row">
+                <div class="showroom-item col-sm-3">
+                    <div class="image">
+                        <img src="img/portfolio/port-server.png" class="img-responsive" alt="Portfolio Image">
+                        <a class="overlay" href="#">
+                             <i class="glyphicons search"><i></i></i>
+                             <div class="name">Server Security</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="showroom-item col-sm-3">
+                    <div class="image">
+                        
+                        <img src="img/portfolio/port-code.png" class="img-responsive" alt="Portfolio Image">
+                        <a class="overlay" href="#">
+                             <i class="glyphicons search"><i></i></i>
+                             <div class="name">Code Review</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="showroom-item col-sm-3">
+                    <div class="image">
+                        <img src="img/portfolio/port-storage.png" class="img-responsive" alt="Portfolio Image">
+                         <a class="overlay" href="#">
+                             <i class="glyphicons search"><i></i></i>
+                             <div class="name">Storage Consulting</div>
+                         </a>
+                    </div>
+                </div>                
+                <div class="showroom-item col-sm-3">
+                    <div class="image">
+                        <img src="img/portfolio/port-car.png" class="img-responsive" alt="Portfolio Image">  
+                         <a class="overlay" href="#">
+                             <i class="glyphicons search"><i></i></i>
+                             <div class="name">Blue Car</div>                         
+                         </a>
+                    </div>
+                </div>                        
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </div> -->
+
+ <!--    <div class="widewrapper">
+        <div class="container content">
+            <div class="row">
+                <div class="col-sm-9">
+                    <div class="showroom-controls">
+                        <div class="links">Recent Blog Posts <i class="verticalSeparator"></i> <a href="blog.html">All Blog Posts</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="showroom-item blog-item col-sm-4">
+                            <div class="image">
+                                <img src="img/blog/blog-map.png"  class="img-responsive" alt="Blog Thumbnail">
+                                 <a href ="blog-inner.html" class="overlay">
+                                     <i class="glyphicons search"><i></i></i>
+                                 </a>
+                            </div>
+                            <div class="content">
+                                <h3><a href="blog-inner.html">The Merits of Google Maps</a></h3>
+                                <span class="meta">Posted by Admin on 1.1.2013</span>
+                                <span class="preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae consequuntur blanditiis fuga eveniet? Aperiam, beatae, recusandae.
+                                </span>
+                                <a class="more" href="blog-inner.html">View more</a>
+                            </div>
+                        </div>
+                        <div class="showroom-item blog-item col-sm-4">
+                            <div class="image">
+                                <img src="img/blog/blog-boat.png" class="img-responsive" alt="Blog Thumbnail">
+                                 <a href ="blog-inner.html" class="overlay">
+                                     <i class="glyphicons search"><i></i></i>
+                                 </a>
+                            </div>
+                            <div class="content">
+                                <h3><a href="blog-inner.html">Sailing on Course</a></h3>
+                                <span class="meta">Posted by Admin on 1.1.2013</span>
+                                <span class="preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae consequuntur blanditiis fuga eveniet? Aperiam, beatae, recusandae.
+                                </span>
+                                <a class="more" href="blog-inner.html">View more</a>
+                            </div>
+                        </div>
+
+                        <div class="showroom-item blog-item col-sm-4">
+                            <div class="image">
+                                <img src="img/blog/blog-pad.png" class="img-responsive" alt="Blog Thumbnail">
+                                 <a href ="index.html" class="overlay">
+                                     <i class="glyphicons search"><i></i></i>
+                                 </a>
+                            </div>
+                            <div class="content">
+                                <h3><a href="blog-inner.html">Mouse versus Pen</a></h3>
+                                <span class="meta">Posted by Admin on 1.1.2013</span>
+                                <span class="preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae consequuntur blanditiis fuga eveniet? Aperiam, beatae, recusandae.
+                                </span>
+                                <a class="more" href="blog-inner.html">View more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="showroom-controls">
+                        <div class="links">Testimonials</div>
+                        <div class="controls">
+                            <a class="left" href="#testimonials-carousel" data-slide="prev"></a>
+                            <a class="right" href="#testimonials-carousel" data-slide="next"></a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div id="testimonials-carousel" class="carousel slide testimonials">
+                                 <div class="carousel-inner">
+                                    <div class="active item testimonial-item">
+                                        <div class="bubble">
+                                            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven."
+
+                                        </div>
+                                        <div class="client"><a href="#"> Michael B.</a>, The Creative Group</div>
+                                    </div>
+                                    <div class="item testimonial-item">
+                                        <div class="bubble">
+                                            "Second carousel. Lorem ipsum dolor sit amet, consectetur adipisicing elit, tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven."
+                                        </div>
+                                        <div class="client"><a href="#"> Alex R.</a>, The Coding Group</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </div>
+ -->
+  <!--   <div class="widewrapper weak-highlight">
+        <div class="container content our-clients">
+            <div class="showroom-controls">
+                <div class="links">Our clients</div>
+            </div>
+            <div class="clients">
+                <div class="client"><img src="img/logos/logo1.png" class="img-responsive" alt="A Bright Idea"></div>
+                <div class="client"><img src="img/logos/logo2.png" class="img-responsive" alt="U Read"></div>
+                <div class="client"><img src="img/logos/logo3.png" class="img-responsive" alt="Drop"></div>
+                <div class="client"><img src="img/logos/logo4.png" class="img-responsive" alt="Alaska Anchor"></div>
+            </div>
+        </div>
+    </div>  
+ -->
+  <!--   <div class="widewrapper strong-highlight">
+        <div class="container calltoaction">
+            <span>Buttons sell products! Call your visitors to action with this bold button.</span>
+            <a href="https://wrapbootstrap.com/theme/grove-responsive-business-theme-WB09B7SFK" class="btn btn-grove-one btn-xlg btn-bold">Purcharse Grove now!</a>
+        </div>
+    </div> -->
+
+    <footer class="widewrapper footer">
+        <div class="container">
+            <div class="row footer">
+                <div class="col-sm-3">
+                    <h4>关于我们</h4>
+                    <p>本站由南邮移动互联网俱乐部Web组开发维护。我们是一群热爱生活，编程和设计的年轻人。欢迎有兴趣的同学<a href="mailto:lxyweb@gmail.com">联系交流</a></p>
+                </div>
+            <!--     <div class="col-sm-3">
+                    <div class="indent30">
+                    <h4>Recent News</h4>
+                    <ul class="grove-list">
+                        <li><a href="#">Hello World Shatana</a></li>
+                        <li><a href="#">Foobar in the sky flying so high</a></li>
+                        <li><a href="#">Wild things happening, all around</a></li>
+                        <li><a href="#">No time for that, no time for that</a></li>
+                    </ul>
+                    </div>
+                </div> -->
+                
+                <div class="col-sm-3">
+                    <h4>关于 移动互联网俱乐部</h4>
+                    <p>南邮移动互联网俱乐部是南京邮电大学一个年轻的，面向移动互联网行业创新创业的大学生技术社团。</p>
+                </div>
+
+
+                <div class="col-sm-3">
+                    <h4>联系方式</h4>
+                    <p>Address：江苏省南京市文苑路9号南京邮电大学仙林校区  大学生活动中心1楼</p>
+                    <p>Phone: +86 132-6071-5825</p>
+                    <p>Email: <a href="mailto:admin@nupter.org">admin@nupter.org</a></p>
+                </div>
+
+            <!--     <div class="col-sm-3">
+                    <h4>Connect</h4>
+                    <a href="#" class="glyphicons facebook"><i></i></a>
+                    <a href="#" class="glyphicons twitter"><i></i></a>
+                    <a href="#" class="glyphicons google_plus"><i></i></a>
+                    <a href="#" class="glyphicons linked_in"><i></i></a>
+                </div>    -->         
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                <p>南京邮电大学移动互联网俱乐部 , 2014 All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="js/vendor/modernizr/modernizr.js"></script>
+</body>
+</html>
