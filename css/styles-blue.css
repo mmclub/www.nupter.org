@@ -5,6 +5,9 @@
  *  http://hackerthemes.com
  *
  */
+
+
+
 body {
   font-family: 'Open Sans', sans-serif;
   color: #6f6f6f;
@@ -1703,4 +1706,8 @@ ul.paging li.active a {
 }
 .product-comparison .disclaimer .text {
   margin-left: 40px;
+}
+
+#navbar-title {
+  font-size: 2em;
 }
